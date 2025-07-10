@@ -14,7 +14,7 @@ tem gratificação de 5% sobre o salário-base e paga imposto de 7% sobre o sal�
 
 int main (){
 
-
+    int salario;
 
     return 0;
 }
