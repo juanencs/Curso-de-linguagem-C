@@ -27,4 +27,5 @@ int main (){
         printf ("Idade atual: %d\n", idade_atual);
         printf ("Idade em 2030: %d\n", idade_2030);
 
+    return 0;
 }
