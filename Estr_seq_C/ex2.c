@@ -20,7 +20,7 @@ int main(){
     printf ("Informe tres notas, em sequencia: \n");
     scanf ("%lf %lf %lf", &n1, &n2, &n3);
 
-    media = (n1 + n2 + n3) / 3;
+    media = (n1 + n2 + n3) / 3.0;
 
     printf ("Media aritmetica: %lf\n", media);
 

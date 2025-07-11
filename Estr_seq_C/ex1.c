@@ -10,11 +10,8 @@
  * 
  */
 #include <stdio.h> 
-#include <locale.h>
 
 int main(){
-
-    setlocale (LC_ALL, "Portuguese_Brazil");
 
     double soma, n1, n2, n3, n4;
 

@@ -20,7 +20,7 @@ int main (){
         printf ("Insira o percentual de aumento: ");
         scanf ("%lf", &pcent_aumento);
 
-        val_aumento = sal * (pcent_aumento/100);
+        val_aumento = sal * (pcent_aumento/100.0);
         novo_sal = sal + val_aumento;
 
         printf ("Valor do aumento: %lf\n", val_aumento);

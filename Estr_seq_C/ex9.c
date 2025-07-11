@@ -12,7 +12,17 @@
 
 int main(){
 
-    double ;
+    double area, base, altura;
+
+        printf ("Para calcular a área do triangulo, insira o valor da base: ");
+        scanf ("%lf", &base);
+
+        printf ("Insira o valor da altura: ");
+        scanf ("%lf", &altura);
+
+        area = (base * altura) / 2.0;
+
+        printf ("Valor da área é: %lf\n", area);
 
     return 0;
 }
