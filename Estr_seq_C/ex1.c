@@ -1,8 +1,8 @@
 /**
  * @file ex1.c
- * @author Juan Enrico
+ * @author Juan Enrico (juanenricocs@outlook.com)
  * @brief 
- * Informar 4 números em sequência e fazer a soma entre eles. 
+ * Informar 4 numeros em sequencia e fazer a soma entre eles. 
  * @version 0.1
  * @date 2025-05-12
  * 
@@ -18,7 +18,7 @@ int main(){
 
     double soma, n1, n2, n3, n4;
 
-    printf ("Informe quatro números, em sequência:\n");
+    printf ("Informe quatro numeros, em sequencia:\n");
     scanf ("%lf\n%lf\n%lf\n%lf", &n1, &n2, &n3, &n4);
 
     soma = n1 + n2 + n3 + n4;

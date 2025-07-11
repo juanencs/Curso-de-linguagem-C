@@ -1,6 +1,6 @@
 /**
  * @file ex3.c
- * @author Juan Enrico
+ * @author Juan Enrico (juanenricocs@outlook.com)
  * @brief Programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada dessas notas.
  * @version 0.1
  * @date 2025-07-08

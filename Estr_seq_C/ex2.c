@@ -1,6 +1,6 @@
 /**
  * @file ex2.c
- * @author Juan Enrico
+ * @author Juan Enrico (juanenricocs@outlook.com)
  * @brief 
  * Faça um programa que receba tres notas,
 calcule e mostre a media aritmetica entre elas.

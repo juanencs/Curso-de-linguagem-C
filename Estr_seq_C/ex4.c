@@ -1,7 +1,7 @@
 /**
  * @file ex4.c
- * @author Juan Enrico
- * @brief  Programa que receba o salário de um  funcionário,  calcule  e  mostre  o  novo  salário,  sabendo-se  que  este  sofreu  um aumento de 25%. 
+ * @author Juan Enrico (juanenricocs@outlook.com)
+ * @brief  Programa que receba o salï¿½rio de um  funcionï¿½rio,  calcule  e  mostre  o  novo  salï¿½rio,  sabendo-se  que  este  sofreu  um aumento de 25%. 
  * @version 0.1
  * @date 2025-07-08
  * 
@@ -12,14 +12,14 @@
 
 int main (){
 
-    double salario, novo_salario;
+    double sal, novo_sal;
 
     printf ("Insira o salario: ");
-    scanf ("%.2lf", &salario);
+    scanf ("%.2lf", &sal);
 
-    novo_salario = salario + (salario*0.25);
+    novo_sal = sal + (sal*0.25);
 
-    printf ("Novo salario: %.2lf", novo_salario);
+    printf ("Novo salario: %.2lf", novo_sal);
 
     return 0;
 }
