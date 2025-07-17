@@ -20,7 +20,7 @@ int main (){
         printf ("Insira o segundo número inteiro: ");
         scanf ("%d", &n2);
 
-        printf ("Insira algum número de 1 a 4 caso queira:\n 1- Somar;\n 2- Subtrair;\n 3- Multiplicar;\n 4- Dividir.\n");
+        printf ("Insira um número de 1 a 4 caso queira:\n 1- Somar;\n 2- Subtrair;\n 3- Multiplicar;\n 4- Dividir.\n");
         printf ("\n");
         scanf ("%d", &opcao);
         printf ("\n");
