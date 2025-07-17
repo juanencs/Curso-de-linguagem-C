@@ -27,6 +27,34 @@ int hr_dur, min_dur;
     printf ("Minutos: ");
     scanf ("%d", &min_fim);
 
+    if(min_inicio > min_fim){
+        min_fim = min_fim + 60;
+        hr_fim = hr_fim - 1;
+    }
+    if(hr_inicio > hr_fim){
+    hr_fim = hr_fim + 24;
+    }
+    if(hr_inicio == hr_fim && min_inicio == min_fim){
+        printf("O jogo durou 24 horas.\n");
+        return 0;
+    }
+
+    min_dur = min_fim - min_inicio;
+    hr_dur = hr_fim - hr_inicio;
+    
+    printf("Duração do jogo: %d hrs e %d min\n", hr_dur, min_dur);
+    
+    return 0;
+}
+/* Outro exemplo de código
+
+#include <stdio.h>
+
+int main(){
+
+int hr_inicio, hr_fim, min_inicio, min_fim; 
+int hr_dur, min_dur;
+
     if (hr_inicio < hr_fim && min_inicio < min_fim){                          //Caso 1
         hr_dur = hr_fim - hr_inicio;
         min_dur = min_fim - min_inicio;
@@ -68,8 +96,9 @@ int hr_dur, min_dur;
         printf ("Duração do jogo: %d hrs e %d min\n", hr_dur, min_dur);
         
     } else if (hr_inicio == hr_fim && min_inicio == min_fim){                  //Caso 9 
-        printf ("O jogo durou 24 horas.\n");
+        printf ("O jogo durou 24 horas.\n"); 
     }
-    
+
     return 0;
-}
+}    
+*/
