@@ -17,21 +17,20 @@ Faça um programa que receba o ano atual determine o salário atual desse funcio
 
 int main(){
 
-    double sal, sal_atual, p; // P = porcentagem
-    int ano, ano_atual;
-    
+    int ano_inicio, ano_atual;
+    double sal, i; // i = taxa de aumento
+
     printf ("Insira o ano atual: ");
     scanf ("%d", &ano_atual);
-    
-    ano = 2015;
-    p = 0.015;
-    for (sal = 1000.0; ano < ano_atual; p*=2){
-        sal = sal + (sal*p);
-        ano++;
+
+    ano_inicio = 2016;
+    sal = 1000.0;
+    for (i = 1.5; ano_inicio <= ano_atual; i *= 2){
+        sal += sal * (i/100.0); 
+        ano_inicio++;
     }
-    
-    sal_atual = sal;
-    printf ("O salário atual é: %.2lf\n", sal_atual);
+
+    printf ("Salário atual: %lf", sal);
 
     return 0;
 }
