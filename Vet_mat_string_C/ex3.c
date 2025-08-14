@@ -26,13 +26,10 @@ int main() {
         if (X == v[i]) {
             printf ("Chave encontrada na posição: %d\n", i+1);
             return 0;
-        } else {
-            continue;
-        }
+        } 
     }
-    if (i == 10) {
-            printf ("Chave não encontrada!\n");
-        }
-
+    
+    printf ("Chave não encontrada!\n");
+    
     return 0;
 }
