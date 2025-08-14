@@ -22,11 +22,17 @@ int main() {
     printf ("Insira a chave de procura: ");
     scanf ("%d", &X);
 
-    if (X == v[i]){
-        printf ("Chave encontrada na posição: %d\n", i);        
-    } else {
-        printf ("Chave não encontrada!\n");
+    for (i = 0; i < 10; i++) { 
+        if (X == v[i]) {
+            printf ("Chave encontrada na posição: %d\n", i+1);
+            return 0;
+        } else {
+            continue;
+        }
     }
+    if (i == 10) {
+            printf ("Chave não encontrada!\n");
+        }
 
     return 0;
 }

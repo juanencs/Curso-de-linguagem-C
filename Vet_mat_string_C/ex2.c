@@ -9,25 +9,22 @@
  * 
  */
 #include <stdio.h>
-
-int main() {
-
-    int i, X;
-    int v[10];
-
-    for (i = 0; i < 10; i++){
-        printf ("Insira o dado da posição %d: ", i+1);
-        scanf ("%d", &v[i]);
+    
+int main(){
+    
+    int i;
+    double v[5];
+        
+    for(i = 0; i < 5; i++){
+        printf("Insira o dado da posição %d: ", i+1);
+        scanf("%lf", &v[i]);
+        v[i] = v[i]/100.0;
     }
-    printf ("Insira a chave de procura: ");
-    scanf ("%d", &X);
-
-    for (i = 0; i < 10; i++){
-        if (X == v[i]){
-            printf ("Chave encontrada na posição: %d", i);
-        } else {
-            continue; 
-        }
+    
+    printf("Conteúdo divido por 100:\n");
+    for(i = 0; i < 5; i++){
+        printf("%.2lf ", v[i]);
     }
+
     return 0;
 }
