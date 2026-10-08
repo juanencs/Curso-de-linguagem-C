@@ -28,4 +28,6 @@ int main(){
     } else {
         printf("%d não é primo.\n", N);
     }
+
+    return 0;
 }
